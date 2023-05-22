@@ -131,6 +131,7 @@ Git push
  18. Синхронизировать внешний и локальный репозиторий TXT
 git fetch
 git pull
+
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
 GitHub. HW_2
 1.На локальном репозитории сделать ветки для:
@@ -163,16 +164,16 @@ git push -u origin Mobile_testing
 3.В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 git checkout BagReports
 cat >>  bagrep.txt 
-3.Запушить структуру багрепорта на внешний репозиторий
+4.Запушить структуру багрепорта на внешний репозиторий
 git add bagrep.txt
 git commit -m "bagrep.txt"
 git push
-4.Вмержить ветку Bag Reports в Main
+5.Вмержить ветку Bag Reports в Main
 git checkout main
 git merge BagReports
-5. Запушить main на внешний репозиторий.
+6. Запушить main на внешний репозиторий.
 git push -u origin main
-6.В ветке CheckLists набросать структуру чек листа.
+7.В ветке CheckLists набросать структуру чек листа.
 git checkout CheckLists
 cat >> CheckLists.txt
 8. Запушить структуру на внешний репозиторий
@@ -186,3 +187,4 @@ git checkout
 git checkout main
 git fetch
 git push
+
