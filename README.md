@@ -155,13 +155,7 @@ git branch SQL
 git branch Charles
 git branch Mobile_testing
               2.Запушить все ветки на внешний репозиторий
-git push -u origin Postman
-git push -u origin Jmeter
-git push -u origin CheckLists
-git push -u origin BagReports
-git push -u origin SQL
-git push -u origin Charles
-git push -u origin Mobile_testing
+
              3.В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 git checkout BagReports
 cat >>  bagrep.txt 
