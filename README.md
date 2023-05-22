@@ -154,6 +154,7 @@ cd git_branch
 -git branch SQL
 -git branch Charles
 -git branch Mobile_testing
+
 2.Запушить все ветки на внешний репозиторий
 -git push -u origin Postman
 -git push -u origin Jmeter
@@ -162,6 +163,7 @@ cd git_branch
 -git push -u origin SQL
 -git push -u origin Charles
 -git push -u origin Mobile_testing
+
 3.В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 git checkout BagReports
 cat >>  bagrep.txt 
@@ -169,25 +171,32 @@ cat >>  bagrep.txt
 git add bagrep.txt
 git commit -m "bagrep.txt"
 git push
+
 5.Вмержить ветку Bag Reports в Main
 git checkout main
 git merge BagReports
+
 6. Запушить main на внешний репозиторий.
 git push -u origin main
+
 7.В ветке CheckLists набросать структуру чек листа.
 git checkout CheckLists
 cat >> CheckLists.txt
+
 8. Запушить структуру на внешний репозиторий
 git add check_list.txt
 git commit -m"check_list.txt"
 git push
+
 9. На внешнем репозитории сделать Pull Request ветки Check_Lists в main
 Переходим на внешний репозиторий в ветку Check_Lists, нажимаем Compare pull requset
+
 10. Синхронизировать Внешнюю и Локальную ветки Main
 git checkout
 git checkout main
 git fetch
 git push
+
 
 
 
