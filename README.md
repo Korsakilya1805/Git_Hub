@@ -133,16 +133,15 @@ git fetch
 git pull
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
-
 GitHub. HW_2
- 1.На локальном репозитории сделать ветки для:
-- Postman
-- Jmeter
-- CheckLists
-- Bag Reports
-- SQL
-- Charles
-- Mobile testing
+1.На локальном репозитории сделать ветки для:
+Postman
+Jmeter
+CheckLists
+Bag Reports
+SQL
+Charles
+Mobile testing
 Клонируем внешний репозиторий на локальный репозиторий
 git@github.com:Korsakilya1805/git_branch.git
 Заходим в склонированный репозиторий
@@ -154,9 +153,15 @@ git branch CheckLists
 git branch SQL
 git branch Charles
 git branch Mobile_testing
-              2.Запушить все ветки на внешний репозиторий
-
-             3.В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+2.Запушить все ветки на внешний репозиторий
+git push -u origin Postman
+git push -u origin Jmeter
+git push -u origin CheckLists
+git push -u origin BagReports
+git push -u origin SQL
+git push -u origin Charles
+git push -u origin Mobile_testing
+3.В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 git checkout BagReports
 cat >>  bagrep.txt 
 4.Запушить структуру багрепорта на внешний репозиторий
@@ -182,4 +187,5 @@ git checkout
 git checkout main
 git fetch
 git push
+
 
